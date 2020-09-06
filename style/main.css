@@ -4,18 +4,17 @@
 }
 
 .navy-star-back {
-    /* background-image: url("../images/pexels-pixabay-cc0-34107-banner.jpg"); */
-    background-image: url("../images/milky-way.jpg");
+    background-image: url("../images/pexels-pixabay-cc0-34107-banner.jpg");
+    /* background-image: url("../images/milky-way.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 1090px;
-    /* filter: brightness(80%); */
+    filter: brightness(80%);
 }
 
 .crab-color {
-    /* filter: brightness(75%) hue-rotate(-20deg); */
-    filter: brightness(95%) hue-rotate(200deg);
-    /* filter: brightness(100%) hue-rotate(-350deg); */
+    filter: brightness(70%) hue-rotate(-20deg);
+    /* filter: brightness(95%) hue-rotate(200deg); */
 }
 
 .crab-nebula-back-1 {
@@ -68,9 +67,8 @@
 }
 
 .dark-txt {
-    /* color: #004178; */
-    /* color: #00356B; */
-    color: #051933;
+    color: #00356B;
+    /* color: #051933; */
 }
 
 .justify-txt {
