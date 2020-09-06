@@ -12,8 +12,13 @@
     filter: brightness(80%);
 }
 
+.dark-txt {
+    color: #00356B;
+    /* color: #051933; */
+}
+
 .crab-color {
-    filter: brightness(70%) hue-rotate(-20deg);
+    filter: brightness(65%) hue-rotate(-20deg);
     /* filter: brightness(95%) hue-rotate(200deg); */
 }
 
@@ -64,11 +69,6 @@
 
 .bitter-txt {
     font-family: 'Bitter', serif;
-}
-
-.dark-txt {
-    color: #00356B;
-    /* color: #051933; */
 }
 
 .justify-txt {
@@ -148,5 +148,5 @@
 }
 
 .light-gray-bg {
-    background-color: #fbfbfb;
+    background-color: #fafafc;
 }
