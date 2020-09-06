@@ -4,44 +4,18 @@
 }
 
 .navy-star-back {
-    background-image: url("../images/pexels-pixabay-cc0-34107-banner.jpg");
+    /* background-image: url("../images/pexels-pixabay-cc0-34107-banner.jpg"); */
+    background-image: url("../images/milky-way.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.black-stars-back-1 {
-    background-image: url("../images/STSCI-H-p1801a-1.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.black-stars-back-2 {
-    background-image: url("../images/STSCI-H-p1801a-2.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.black-stars-back-3 {
-    background-image: url("../images/STSCI-H-p1801a-3.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.black-stars-back-4 {
-    background-image: url("../images/STSCI-H-p1801a-4.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.black-stars-back-5 {
-    background-image: url("../images/STSCI-H-p1801a-5.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    max-width: 1090px;
+    /* filter: brightness(80%); */
 }
 
 .crab-color {
-    /* filter: brightness(70%) hue-rotate(-20deg); */
-    filter: brightness(110%) hue-rotate(200deg);
+    /* filter: brightness(75%) hue-rotate(-20deg); */
+    filter: brightness(95%) hue-rotate(200deg);
+    /* filter: brightness(100%) hue-rotate(-350deg); */
 }
 
 .crab-nebula-back-1 {
@@ -94,11 +68,9 @@
 }
 
 .dark-txt {
-    /* color: #313180; */
-    /* color: #333; */
-    /* color: #222D39; */
-    /* color: #173a67; */
-    color: #004178;
+    /* color: #004178; */
+    /* color: #00356B; */
+    color: #051933;
 }
 
 .justify-txt {
@@ -123,8 +95,8 @@
     margin: 0 auto;
 }
 
-.m16auto {
-    margin: 1.6rem auto;
+.m17auto {
+    margin: 1.7rem auto;
 }
 
 .mw600 {
@@ -139,7 +111,6 @@
 
 .logo {
     font-size: 3.5rem;
-    color: black;
 }
 
 .rel {
@@ -150,8 +121,8 @@
     top: 0.2rem;
 }
 
-.point-five-down {
-    top: 0.5rem;
+.point-six-down {
+    top: 0.6rem;
 }
 
 .eight-up {
@@ -176,4 +147,8 @@
 
 .dir-col {
     flex-direction: column;
+}
+
+.light-gray-bg {
+    background-color: #fbfbfb;
 }
