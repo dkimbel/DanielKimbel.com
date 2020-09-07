@@ -4,18 +4,21 @@
     background-clip: text;
 }
 
-.header-back {
-    background-image: url("../images/pexels-pixabay-cc0-34107-banner.jpg");
+.header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
     max-width: 1090px;
-    filter: brightness(80%);
+    filter: brightness(80%) opacity(90%);
+}
+
+.header-back {
+    background-image: url("../images/pexels-pixabay-cc0-34107-banner.jpg");
 }
 
 .icon {
     font-size: 3.5rem;
-    filter: brightness(70%) hue-rotate(-20deg);
+    filter: brightness(70%) hue-rotate(-20deg) saturate(100%) opacity(80%);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -121,11 +124,40 @@
 
 @media (prefers-color-scheme: dark) {
     .std-txt {
-        color: white;
-        font-weight: 300;
+        /* color: #fafafa; */
+        color: #d0c9cd;
+        /* font-weight: 300; */
+        font-weight: 400;
     }
 
     .bg {
-        background-color: black;
+        background-color: #1f1f1f;
+    }
+
+    .header {
+        /* filter: brightness(80%) saturate(100%); */
+        filter: brightness(80%) saturate(60%);
+    }
+
+    .header-back {
+        background-image: url("../images/gal-1b.jpg");
+        /* background-image: url("../images/gal-2a.jpg"); */
+        /* background-image: url("../images/gal-3a.png"); */
+    }
+
+    .icon {
+        filter: brightness(450%) hue-rotate(-100deg) saturate(30%);
+        /* filter: brightness(120%) hue-rotate(-340deg) saturate(100%); */
+        /* filter: brightness(100%) hue-rotate(-100deg) saturate(75%); */
+        /* filter: brightness(120%) hue-rotate(-115deg) saturate(90%); */
+        /* filter: brightness(150%) hue-rotate(-0deg) saturate(85%); */
+    }
+
+    .icon-back-1 {
+        background-image: url("../images/STSCI-H-p1721c-m-1.png");
+    }
+
+    .icon-back-2 {
+        background-image: url("../images/STSCI-H-p1721c-m-4.png");
     }
 }
