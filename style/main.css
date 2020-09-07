@@ -1,74 +1,49 @@
 .clip-txt {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    background-clip: text;
 }
 
-.navy-star-back {
+.header-back {
     background-image: url("../images/pexels-pixabay-cc0-34107-banner.jpg");
-    /* background-image: url("../images/milky-way.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 50% 50%;
     max-width: 1090px;
-    filter: brightness(80%);
+    filter: brightness(72%);
 }
 
-.dark-txt {
-    color: #00356B;
-    /* color: #051933; */
-}
-
-.crab-color {
+.icon {
+    font-size: 3.5rem;
     filter: brightness(65%) hue-rotate(-20deg);
-    /* filter: brightness(95%) hue-rotate(200deg); */
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.crab-nebula-back-1 {
+.icon-back-1 {
     background-image: url("../images/STSCI-H-p1721c-m-1.png");
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
-.crab-nebula-back-2 {
-    background-image: url("../images/STSCI-H-p1721c-m-2.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.crab-nebula-back-3 {
-    background-image: url("../images/STSCI-H-p1721c-m-3.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.crab-nebula-back-4 {
+.icon-back-2 {
     background-image: url("../images/STSCI-H-p1721c-m-4.png");
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .ctr-txt {
     text-align: center;
 }
 
-.large-txt {
+.header-txt {
     font-size: 9rem;
     font-weight: 900;
-}
-
-.white {
-    color: white;
+    font-family: 'Raleway', sans-serif;
 }
 
 .upcase-txt {
     text-transform: uppercase;
 }
 
-.raleway-txt {
-    font-family: 'Raleway', sans-serif;
-}
-
-.bitter-txt {
-    font-family: 'Bitter', serif;
+.white {
+    color: white;
 }
 
 .justify-txt {
@@ -81,8 +56,13 @@
 
 .body-txt {
     font-size: 1.2rem;
-    font-weight: 500;
     line-height: 1.8rem;
+}
+
+.std-txt {
+    font-family: 'Bitter', serif;
+    font-weight: 500;
+    color: #00356B;
 }
 
 .m0 {
@@ -107,10 +87,6 @@
   min-width: 400px;
 }
 
-.logo {
-    font-size: 3.5rem;
-}
-
 .rel {
     position: relative;
 }
@@ -123,8 +99,8 @@
     top: 0.6rem;
 }
 
-.eight-up {
-    bottom: 8rem;
+.body-down {
+    top: 15%;
 }
 
 .h100 {
@@ -139,14 +115,17 @@
     justify-content: space-between;
 }
 
-.justify-center {
-    justify-content: center;
-}
-
-.dir-col {
-    flex-direction: column;
-}
-
-.light-gray-bg {
+.bg {
     background-color: #fafafc;
+}
+
+@media (prefers-color-scheme: dark) {
+    .std-txt {
+        color: white;
+        font-weight: 300;
+    }
+
+    .bg {
+        background-color: black;
+    }
 }
