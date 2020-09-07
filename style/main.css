@@ -10,12 +10,12 @@
     background-size: cover;
     background-position: 50% 50%;
     max-width: 1090px;
-    filter: brightness(72%);
+    filter: brightness(80%);
 }
 
 .icon {
     font-size: 3.5rem;
-    filter: brightness(65%) hue-rotate(-20deg);
+    filter: brightness(70%) hue-rotate(-20deg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -62,7 +62,7 @@
 .std-txt {
     font-family: 'Bitter', serif;
     font-weight: 500;
-    color: #00356B;
+    color: #004278;
 }
 
 .m0 {
@@ -116,7 +116,7 @@
 }
 
 .bg {
-    background-color: #fafafc;
+    background-color: #f9f9fb;
 }
 
 @media (prefers-color-scheme: dark) {
