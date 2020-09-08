@@ -122,6 +122,125 @@
     background-color: #f6f6f8;
 }
 
+.hover-img {
+    position: absolute;
+    height: 1.2rem;
+    width: 1.2rem;
+    display: none;
+}
+
+.icon:hover .hover-img {
+    display: block;
+}
+
+.hover-img.upper-left {
+    top: -0.7rem;
+    left: -0.7rem;
+    rotate: 90deg;
+}
+
+.icon:hover .hover-img.upper-left {
+    animation: upper-left-bounce 0.35s ease-out;
+}
+
+.hover-img.upper-right {
+    top: -0.7rem;
+    right: -0.7rem;
+    rotate: 180deg;
+}
+
+.icon:hover .hover-img.upper-right {
+    animation: upper-right-bounce 0.35s ease-out;
+}
+
+.hover-img.lower-right {
+    bottom: 0;
+    right: -0.7rem;
+    rotate: 270deg;
+}
+
+.icon:hover .hover-img.lower-right {
+    animation: lower-right-bounce 0.35s ease-out;
+}
+
+.hover-img.lower-left {
+    bottom: 0;
+    left: -0.7rem;
+}
+
+.icon:hover .hover-img.lower-left {
+    animation: lower-left-bounce 0.35s ease-out;
+}
+
+@keyframes upper-left-bounce {
+    0% {
+        top: -0.7rem;
+        left: -0.7rem;
+        opacity: 0;
+    }
+    50% {
+        top: -1.2rem;
+        left: -1.2rem;
+    }
+    100% {
+        top: -0.7rem;
+        left: -0.7rem;
+        opacity: 1;
+    }
+}
+
+@keyframes upper-right-bounce {
+    0% {
+        top: -0.7rem;
+        right: -0.7rem;
+        opacity: 0;
+    }
+    50% {
+        top: -1.2rem;
+        right: -1.2rem;
+    }
+    100% {
+        top: -0.7rem;
+        right: -0.7rem;
+        opacity: 1;
+    }
+}
+
+@keyframes lower-right-bounce {
+    0% {
+        bottom: 0rem;
+        right: -0.7rem;
+        opacity: 0;
+    }
+    50% {
+        bottom: -0.5rem;
+        right: -1.2rem;
+    }
+    100% {
+        bottom: 0rem;
+        right: -0.7rem;
+        opacity: 1;
+    }
+}
+
+@keyframes lower-left-bounce {
+    0% {
+        bottom: 0rem;
+        left: -0.7rem;
+        opacity: 0;
+    }
+    50% {
+        bottom: -0.5rem;
+        left: -1.2rem;
+    }
+    100% {
+        bottom: 0rem;
+        left: -0.7rem;
+        opacity: 1;
+    }
+}
+
+
 @media (prefers-color-scheme: dark) {
     .std-txt {
         /* color: #fafafa; */
