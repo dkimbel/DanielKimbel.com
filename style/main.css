@@ -140,7 +140,7 @@
 }
 
 .icon:hover .hover-img.upper-left {
-    animation: upper-left-bounce 0.35s ease-out;
+    animation: upper-left-bounce 0.25s ease-out;
 }
 
 .hover-img.upper-right {
@@ -150,7 +150,7 @@
 }
 
 .icon:hover .hover-img.upper-right {
-    animation: upper-right-bounce 0.35s ease-out;
+    animation: upper-right-bounce 0.25s ease-out;
 }
 
 .hover-img.lower-right {
@@ -160,7 +160,7 @@
 }
 
 .icon:hover .hover-img.lower-right {
-    animation: lower-right-bounce 0.35s ease-out;
+    animation: lower-right-bounce 0.25s ease-out;
 }
 
 .hover-img.lower-left {
@@ -169,7 +169,7 @@
 }
 
 .icon:hover .hover-img.lower-left {
-    animation: lower-left-bounce 0.35s ease-out;
+    animation: lower-left-bounce 0.25s ease-out;
 }
 
 @keyframes upper-left-bounce {
