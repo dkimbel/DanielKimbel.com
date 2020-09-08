@@ -9,7 +9,7 @@
     background-size: cover;
     background-position: 50% 50%;
     max-width: 1090px;
-    filter: brightness(80%) opacity(85%);
+    filter: brightness(80%) opacity(86%);
 }
 
 .header-back {
@@ -18,7 +18,7 @@
 
 .icon {
     font-size: 3.5rem;
-    filter: brightness(65%) hue-rotate(-20deg) saturate(105%) opacity(70%);
+    filter: brightness(65%) hue-rotate(-20deg) saturate(108%) opacity(75%);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -119,7 +119,7 @@
 }
 
 .bg {
-    background-color: #f1f1f3;
+    background-color: #f6f6f8;
 }
 
 @media (prefers-color-scheme: dark) {
